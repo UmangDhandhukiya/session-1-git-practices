@@ -1,16 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <title>Session-1</title>
-</head>
-<body>
-    <h1>this is my first session and i am learning git and best practices.</h1>
-    <p>i have already github account and git bash setup.</p>
-    <p>then after create some file and perform some basic operation on github.</p>
-    <p>i am in Feature branch</p>
-    <p>i am in main branch</p>
-</body>
+  <head>
+    <!-- charset asci co evalues for webpages -->
+    <meta charset="UTF-8" />
+    <!-- meta tag in html -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- favicone icon -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <!-- webpage title -->
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- heading tags -->
+    <h1 style="color: red">Heading tag start with H1 > H6</h1>
+
+    <!-- paragraph -->
+    <p title="I am Para">This is paragraph with tooltip.</p>
+
+    <p>
+      if we need to write a two line with paragraph then use BR tag <br />
+      which is empty tag and non closing tag here is our second line
+    </p>
+
+    <!-- pre tag like poems and used when we went preserve space and line -->
+    <p>pre tag is preserve both spacing and new line</p>
+    <pre style="font-size: larger">
+    hello 
+
+    my name is umang dhandhukiya
+
+    i am from rajkot 
+    </pre>
+
+    <!-- here is some none closing and empty tag without content  -->
+    <br />
+    <hr />
+
+    <!-- formating -->
+
+    <p><b>hello i am bold same as strong</b></p>
+    <p><i>hello i am itallic same as emphasize</i></p>
+    <p>
+      <mark
+        >hello i am mark and i am <del>highlighted</del> del same as a strike in
+        <ins>html5</ins></mark
+      >
+    </p>
+    <p>
+      i am para and i have <small>small</small> i have subscripted
+      H<sub>2</sub>O and i have superscripted 2<sup>3</sup>
+    </p>
+    <p><abbr title="world health organization">WHO</abbr></p>
+    <p>
+      <q>cite is used like THE only one things not use in human name</q> ex
+      <cite>The html</cite>
+    </p>
+    <bdo dir="rtl">Hello i am left to right bi directional tag</bdo>
+
+    <!-- table in html -->
+
+    <table style="width: 100%; border: 1px solid black">
+      <caption>
+        Monthly savings
+      </caption>
+      <tr>
+        <th style="border: 1px solid red">Month</th>
+        <th style="border: 1px solid red">Savings</th>
+      </tr>
+      <tr>
+        <td style="border: 1px solid red" rowspan="2">January</td>
+        <td style="border: 1px solid red">$100</td>
+      </tr>
+      <tr>
+        <!-- <td style="border: 1px solid red">February</td> -->
+        <td style="border: 1px solid red">$50</td>
+      </tr>
+    </table>
+
+    <!-- list in html (discriptive list in html)-->
+
+    <dl>
+      <dt>umang</dt>
+      <dd>- umang from rajkot</dd>
+      <dd>- he is a sde</dd>
+      <dt>umang</dt>
+      <dd>- umang from rajkot</dd>
+      <dd>- he is a sde</dd>
+      <dd>session 2 branch line</dd>
+    </dl>
+
+    <!-- computer code in html -->
+
+    <hr />
+
+    <code> x=y; y=10; z=x+y; </code>
+
+    <p>
+      now we can use var tag to define variable in html like <var>A</var> +
+      <var>B</var> both are variables
+    </p>
+
+    <samp>hello i am computer code tag samp</samp>
+
+    <p>press key <kbd>ctrl + s</kbd> in keyboard to save a file in windows.</p>
+
+    <!-- symbole entity -->
+    <h1>&copy; , &lt; , &gt; , &cent; &rcub;</h1>
+
+    <!-- form in html -->
+    <form method="get">
+      <fieldset>
+        <legend>Personalia:</legend>
+        <label for="fname">First name:</label><br />
+        <input type="text" id="fname" name="fname" /><br />
+        <label for="lname">Last name:</label><br />
+        <input type="text" id="lname" name="lname" /><br /><br />
+        <input type="submit" value="Submit" />
+      </fieldset>
+    </form>
+
+    <!-- video audio and media -->
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/tPEE9ZwTmy0?si=wNyEMzz7l6TB4Nw-"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen
+    ></iframe>
+  </body>
 </html>
